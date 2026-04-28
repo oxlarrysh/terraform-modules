@@ -75,7 +75,7 @@ Each module can be consumed independently. Reference a module directly from this
 
 ```hcl
 module "k8s_cluster" {
-  source = "github.com/dunjoye4real/terraform-modules//upcloud-kubernetes-cluster"
+  source = "github.com/oxlarrysh/terraform-modules//upcloud-kubernetes-cluster"
 
   prefix               = "prod"
   zone                 = "fi-hel1"
